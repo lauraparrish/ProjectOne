@@ -1,0 +1,114 @@
+body {
+  background-color: white;
+}
+h1 {
+  color: rgb(20, 20, 20);
+  font-size: 100px;
+  font-family: fantasy;
+  padding: 50px;
+}
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  color: rgb(20, 20, 20);
+  font-size: 75px;
+  font-family: fantasy;
+  padding: 50px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 50px;
+}
+.centertext {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.underphototext {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.col {
+  flex: 50%;
+  max-width: 49%;
+  padding: 4px;
+  overflow: hidden;
+}
+
+.col img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.gridtext {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 100px;
+}
+.booking-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+.booking {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 50px;
+}
+
+.nav.navbar-nav li a {
+  color: #fff;
+}
+
+.nav.navbar-nav a:hover {
+  color: grey;
+}
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  background-color: rgba(255, 211, 219, 0.342);
+  flex-wrap: wrap;
+}
+.pricing {
+  padding: 50px;
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bolder;
+  background-color: rgba(255, 211, 219, 0.952);
+}
+.haircut-image {
+  background-image: url("Photos/hair8.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1000px; /* You must set a specified height */
+  background-position: top; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
